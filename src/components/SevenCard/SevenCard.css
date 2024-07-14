@@ -1,0 +1,20 @@
+.sevenCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 5%;
+  background-color: green;
+}
+
+.btnStandar {
+  padding: 16px;
+  border: none;
+  color: white;
+  background-color: #3ffa53;
+  border-radius: 10px;
+  font-size: 24px;
+  padding-left: 46px;
+  padding-right: 46px;
+  font-weight: bold;
+}

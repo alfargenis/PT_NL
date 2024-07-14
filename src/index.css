@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --text-type: Sans-serif;
+  --text-color-back: white;
+}
+body {
+  height: 100vh;
+  font-family: var(--text-type);
+  margin: 0px;
+  margin-block-start: 0px !important;
+  margin-block-end: 0px !important;
+}

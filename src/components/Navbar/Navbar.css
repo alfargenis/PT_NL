@@ -1,0 +1,127 @@
+nav {
+  width: 100%;
+  position: relative;
+}
+
+.headerNav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.iconHeadernNav {
+  object-fit: contain;
+  max-width: 180px;
+  max-height: 120px;
+}
+
+.Navbackground {
+  z-index: -1;
+  width: 100%;
+  object-fit: cover;
+  max-height: 600px;
+  position: absolute;
+}
+
+.routeNav {
+  display: flex;
+  height: 120px;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.routeNav > .route {
+  margin-left: 16px;
+  color: var(--text-color-back);
+  font-weight: bold;
+  font-size: 16px;
+  text-decoration: none !important;
+}
+
+.contentNavBody {
+  display: flex;
+  flex-direction: column;
+}
+
+.bodyNav {
+  margin-left: 16px;
+}
+
+.bodyNavTitle {
+  font-size: 46px;
+  color: var(--text-color-back);
+  font-weight: bold;
+}
+
+.bodyNavTitle2 {
+  font-size: 46px;
+  max-width: fit-content;
+  background-color: white;
+  color: black;
+  font-weight: bold;
+}
+
+.bodyNavButton {
+  padding: 16px;
+  background-color: #3ffa53;
+  color: white;
+  font-size: 24px;
+  border: none;
+  border-radius: 12px;
+}
+
+.footerNav {
+  display: flex;
+  flex-direction: row;
+  margin-top: 7.3%;
+  height: 100%;
+  background-color: green;
+  align-items: center;
+}
+
+.footerContenTextNav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  color: var(--text-color-back);
+  font-weight: bold;
+  padding-left: 25px;
+}
+
+.footerContenTimeNav {
+  padding-left: 26px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 60%;
+}
+
+.blockTime {
+  color: var(--text-color-back);
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.blockTime > span {
+  font-size: 26px;
+}
+
+.blockTitle {
+  margin-block-start: 0 !important;
+  margin-block-end: 0 !important;
+}
+
+.divider {
+  height: 65px;
+  border-left: 3px solid #bbb;
+  margin: 10px;
+}
+
+.blockSpan {
+  color: #3ffa53 !important;
+}
