@@ -21,7 +21,7 @@ const AppRoutes = () => {
 function App() {
   return (
     <AuthProvider>
-      <BrowserRouter>
+      <BrowserRouter basename='/PT_NL'>
         <AppRoutes />
       </BrowserRouter>
     </AuthProvider>
